@@ -33,8 +33,19 @@ class Ckan:
             api_website_url = getattr(row, "api_website_url")
             website_link = getattr(row,"website_url")
             r = requests.get(api_website_url)
-            print(r)
-    
+            if r.status_code == requests.codes.OK:
+                print("Everything Worked")
+                continue 
+            elif r.status_code == requests.code.BAD:
+                print("Something went Wrong!")
+                continue
+            elif r.status_code == requests.code.NOT_FOUND:
+                print("Ther server could not find this URL")
+                continue
+            elif r.status_code == requests.code.NOT_ALLOWED:
+                print("You are not allowed to access this!")
+                continue
+                
 
     
 # def ckan_metadat_excel(ckan_dataset):

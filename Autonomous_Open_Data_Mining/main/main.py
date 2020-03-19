@@ -8,20 +8,20 @@ import os
 import sys
 import pandas as pd
 
-sys.path.append('C:/Users/skans/Documents/Github/Research-Assistantship-')
-from Automated_Open_Data_Mining_Project.platforms.distributing_links_on_platforms.distributing_links_on_platforms import (
+sys.path.append(r'C:\Users\skans\Documents\GitHub\Autonomous-Open-Data-Mining')
+from Autonomous-Open-Data-Mining.platforms.distributing_links_on_platforms.distributing_links_on_platforms import (
     distributing_links_no_platforms)
-from Automated_Open_Data_Mining_Project.platforms.socrata.socrata_metadata_excel import (
-    socrata_metadata_excel)
-from Automated_Open_Data_Mining_Project.platforms.CKAN.ckan_metadata_excel import Ckan
-from Automated_Open_Data_Mining_Project.datasets.dataset_divison_links_nolinks.dataset_division_links_nolinks import \
-    dataset_divison_links_nolinks
-from Automated_Open_Data_Mining_Project.open_data_portal_links.updating_city_with_available_links.updating_city_with_available_links import (
-    updating_city_with_available_links)
-from Automated_Open_Data_Mining_Project.open_data_portal_links.updating_city_with_available_links_closest.updating_city_closest_available_links import (
-    updating_city_closest_available_links)
-from Automated_Open_Data_Mining_Project.open_data_portal_links.updating_city_with_no_available_links.updating_city_with_no_available_links import (
-    updating_city_with_no_available_links)
+# from Autonomous-Open-Data-Mining.platforms.socrata.socrata_metadata_excel import (
+#     socrata_metadata_excel)
+from Autonomous-Open-Data-Mining.platforms.CKAN.ckan_metadata_excel import Ckan
+# from Autonomous-Open-Data-Mining.datasets.dataset_divison_links_nolinks.dataset_division_links_nolinks import \
+#     dataset_divison_links_nolinks
+# from Autonomous-Open-Data-Mining.open_data_portal_links.updating_city_with_available_links.updating_city_with_available_links import (
+#     updating_city_with_available_links)
+# from Autonomous-Open-Data-Mining.open_data_portal_links.updating_city_with_available_links_closest.updating_city_closest_available_links import (
+#     updating_city_closest_available_links)
+# from Autonomous-Open-Data-Mining.open_data_portal_links.updating_city_with_no_available_links.updating_city_with_no_available_links import (
+#     updating_city_with_no_available_links)
 
 
 def main():
